@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body default (light mode) */
+/* html {
+  @apply font-sans bg-customBg text-customText;
+} */
+
+/* Dark mode */
+/* html.dark {
+  @apply bg-darkBg text-darkText;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
