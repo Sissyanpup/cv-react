@@ -19,9 +19,11 @@ function Footer() {
           <div className="w-2/3 md:w-1/4 mb-10 md:mx-auto">
             <h3 className="text-white text-3xl font-bold mb-4">Menu</h3>
             <a href="#home" className="text-light text-base hover:underline hover:underline-offset-1">Beranda</a> <br />
-            <a href="#quote" className="text-light text-base hover:underline hover:underline-offset-1">Quote</a> <br />
-            <a href="#highlight" className="text-light text-base hover:underline hover:underline-offset-1">Blog saya</a> <br />
-            <a href="#" className="text-light text-base hover:underline hover:underline-offset-1">Kembali ke atas</a>
+            <a href="#about" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Tentang Saya</a> <br />
+            <a href="#portfolio" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Portfolio</a> <br />
+            <a href="#experience" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Experience</a> <br />
+            <a href="#skills" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Skills</a> <br />
+            <a href="#contact" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Contact</a>
           </div>
 
           {/* Sosial Media */}
