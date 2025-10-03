@@ -17,7 +17,7 @@ function Portfolio() {
   return (
     <section id="portfolio" className="pt-36 pb-32">
         <div className="flex flex-col justify-center items-center mx-auto">
-        <h2 className="text-darkPrimary text-4xl font-bold mb-6">Contoh Project Kecil Saya</h2>
+        <h2 className="text-darkPrimary text-4xl font-bold mb-6 text-center px-5">Contoh Project Kecil Saya</h2>
             <div className="container mx-auto flex flex-wrap justify-center items-center gap-16">
                 <ProjectCardA />
                 <ProjectCardB />
