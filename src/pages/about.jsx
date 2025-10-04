@@ -24,7 +24,6 @@ function AboutMe() {
             <button
               key={skill}
               className="px-4 py-2 rounded-full bg-white border border-gray-300 shadow-sm hover:bg-primary hover:text-white hover:scale-105 transition transform duration-300"
-              onClick={() => alert(`Skill: ${skill}`)}
             >
               {skill}
             </button>
