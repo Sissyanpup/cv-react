@@ -54,7 +54,7 @@ function Navbar() {
             {/* Nav menu dengan slide down */}
             <nav
               ref={navRef}
-              className={`absolute top-[65px] min-w-[200px] right-0 bg-white shadow-lg rounded-lg overflow-hidden transition-max-height duration-300 lg:static lg:translate-x-0 lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none`}
+              className={`absolute top-[65px] min-w-[200px] right-0 bg-white shadow-lg rounded-lg overflow-hidden transition-max-height duration-300 lg:block lg:static lg:translate-x-0 lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none`}
               style={{ maxHeight }}
             >
               <ul className="block lg:flex">
