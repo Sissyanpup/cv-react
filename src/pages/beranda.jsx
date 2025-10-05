@@ -31,8 +31,11 @@ function Hero() {
         <h1 className="text-5xl font-bold text-white mb-2">
           Muhammad Zirlda Prairi
         </h1>
+        <p className="text-2xl text-white mb-4">
+          NIM: 231011402293
+        </p>
         <p className="text-xl text-white mb-4">
-          Frontend Developer & UI/UX Designer
+          Frontend Developer
         </p>
         <a
           href="https://daily-activity-zirlda.vercel.app/index.html" target="_blank"
