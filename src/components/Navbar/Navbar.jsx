@@ -54,8 +54,8 @@ function Navbar() {
             {/* Nav menu dengan slide down */}
             <nav
               ref={navRef}
-              className={`absolute top-[65px] min-w-[200px] right-0 bg-white shadow-lg rounded-lg overflow-hidden transition-max-height duration-300 lg:block lg:static lg:translate-x-0 lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none`}
-              style={{ maxHeight }}
+              style={{ maxHeight: open ? `${navRef.current?.scrollHeight}px` : "0px" }}
+              className={`absolute top-[65px] right-0 bg-white shadow-lg rounded-lg overflow-hidden transition-max-height duration-300 lg:overflow-visible lg:max-h-full lg:static lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none`}
             >
               <ul className="block lg:flex">
                 <li>
@@ -63,7 +63,8 @@ function Navbar() {
                 </li>
                 <li>
                   <a href="#about" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Tentang Saya</a>
-                </li>
+                </li>className={`absolute top-[65px] min-w-[200px] right-0 bg-white shadow-lg rounded-lg overflow-hidden transition-max-height duration-300 lg:block lg:static lg:translate-x-0 lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none`}
+              style={{ maxHeight }}
                 <li>
                   <a href="#portfolio" className="text-base text-dark py-2 mx-8 flex hover:text-primary">Portfolio</a>
                 </li>
