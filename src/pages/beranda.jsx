@@ -31,7 +31,7 @@ function Hero() {
         <h1 className="text-5xl font-bold text-white mb-2">
           Muhammad Zirlda Prairi
         </h1>
-        <p className="text-2xl text-white mb-4">
+        <p className="text-2xl font-semibold text-white mb-4">
           NIM: 231011402293
         </p>
         <p className="text-xl text-white mb-4">
